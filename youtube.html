@@ -1,17 +1,54 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>
-      youtube
-    </title>
+    <title>youtube</title>
     <link rel="stylesheet" href="youtube.css">
   </head>
   <body>
-    <img class="thumbnail" src="youtube.png" alt="youtube">
-    <input class="search" type="text" placeholder="search">
+    <header>
+      <img class="logo" src="youtube_logo.png" alt="YouTube Logo">
+      <input class="search" type="text" placeholder="Search">
+      <button class="search-button">Search</button>
+      <img class="user-icon" src="user_icon.png" alt="User Icon">
+    </header>
 
-    <p class="video">video title</p>
-    <p class="descri">description</p>
-    <p class="views">views</p>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Subscriptions</a></li>
+        <li><a href="#">Library</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="video-section">
+        <div class="video-thumbnail">
+          <a href="video 1.html">
+            <img src="thumbnail1.png" alt="Video Thumbnail">
+          </a>
+          <div class="video-info">
+            <p class="video-title">Video Title 1</p>
+            <p class="video-description">Description 1</p>
+            <p class="video-views">1M views</p>
+          </div>
+        </div>
+        <div class="video-thumbnail">
+          <a href="video 2.html" target="_blank">
+            <img src="thumbnail2.png" alt="Video Thumbnail">
+          </a>
+          <div class="video-info">
+            <p class="video-title">Video Title 2</p>
+            <p class="video-description">Description 2</p>
+            <p class="video-views">500K views</p>
+          </div>
+        </div>
+        <!-- Add more video thumbnails as needed -->
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 YouTube</p>
+    </footer>
   </body>
 </html>
